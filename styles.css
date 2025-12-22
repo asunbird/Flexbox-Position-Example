@@ -5,3 +5,9 @@
   left: 30px;
 }
 
+body {
+    position: relative;
+    display: inline-block;
+}
+
+
