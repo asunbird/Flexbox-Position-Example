@@ -46,7 +46,7 @@ nav {
    background-image: linear-gradient(to right, rgb(43, 214, 252) , rgb(123, 245, 253));
    display: flex;
    justify-content: center;
-   margin: auto;
+   align-items: center;
 }
    
 
