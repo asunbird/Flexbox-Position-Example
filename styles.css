@@ -11,6 +11,7 @@ nav {
   height: 60px;
   color: #ffffff;
   position: absolute;
+  display: inline-block;
 }
 
 .logo {
@@ -20,10 +21,26 @@ nav {
   font-size: 1.6rem;
 }
 
-
+.nav-items {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    
+}
 
 .nav-items li {
-  display: inline-block; 
+  width: fit-content;
+  margin: 0 10px;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 
