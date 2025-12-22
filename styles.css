@@ -50,4 +50,16 @@ nav {
    flex-direction: column;
 }
    
+.hero h1, p {
+    color: #ffffff;
+}
+
+.hero h1 {
+    font-size: 1.9rem;
+    font-weight: bolder;
+}
+
+.hero p {
+    margin-top: 15px;
+}
 
