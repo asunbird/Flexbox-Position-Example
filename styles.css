@@ -69,13 +69,20 @@ nav {
 /* Button styles */
 
 .items-container {
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    row-gap: 20px;
+    display: inline-block;
+    margin: 50px auto;
     width: 100%;
     height: fit-content;
 }
 
+.item #special-badge {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    border-radius: 3px;
+    background-color: rgb(253, 140, 115);
+    color: #ffffff;
+}
