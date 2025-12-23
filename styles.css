@@ -83,7 +83,7 @@ nav {
     justify-content: center;
     align-items: center;
     font-size: 0.7rem;
-    border-radius: 3px;
+    border-radius: 4px;
     background-color: rgb(253, 140, 115);
     color: #ffffff;
 }
@@ -95,6 +95,6 @@ div.item {
     height: 150px;
     margin: 20px;
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 6px;
     background-color: lightblue;
 }
