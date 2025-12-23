@@ -69,10 +69,11 @@ nav {
 /* Button styles */
 
 .items-container {
-    display: inline-block;
-    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
     width: 100%;
-    height: fit-content;
+    height: 300px;
+    color: #000;
 }
 
 .item #special-badge {
@@ -85,4 +86,15 @@ nav {
     border-radius: 3px;
     background-color: rgb(253, 140, 115);
     color: #ffffff;
+}
+
+div.item {
+    display: inline-block;
+    bottom: 10px;
+    width: 140px;
+    height: 150px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: lightblue;
 }
