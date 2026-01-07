@@ -97,9 +97,13 @@ div.item {
     bottom: 10px;
     width: 140px;
     height: 80px;
-    margin: 20px;
+    margin-top: 20px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
     border-radius: 6px;
     background-color: lightblue;
+    min-width: 80px;
 }
 
 .item p {
