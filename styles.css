@@ -147,9 +147,14 @@ div.item {
   border: none;
   padding: 10px 15px;
   border-radius: 5px;
-  cursor: pointer;
   width: 8rem;
   height: 2.5rem;
+}
+
+#backToTop:hover {
+  background-color: #52eaf8;
+  color: black;
+  cursor: pointer;
 }
 
 .footer p {
