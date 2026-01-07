@@ -77,7 +77,8 @@ nav {
 }
 
 #special-badge {
-    width: 86px;
+    max-width: 86px;
+    min-width: 30px;
     height: 32px;
     display: flex;
     justify-content: center;
@@ -102,6 +103,14 @@ div.item {
 }
 
 .item p {
-    text-align: center;
+    display: block;
+   text-align: center;
+    margin: 30px auto;
 
+}
+
+#special-bage-text {
+    position: relative;
+    margin: 0 auto;
+    top: auto;
 }
