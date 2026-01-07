@@ -137,7 +137,7 @@ div.item {
     display: inline-block;
 }
 
-.footer-content #backToTop {
+#backToTop {
   background-color: #3681d2;
   color: white;
   border: none;
