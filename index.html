@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Flexbox and Position Example</title>
   </head>
+
+  <script>
+    // Back to Top button functionality
+    const btn = document.getElementById("backToTop");
+    btn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+
   <body>
     <!-- Navbar -->
     <nav class="navbar">
@@ -37,24 +46,17 @@
       <div class="item"><p>Item 5</p></div>
       <div class="item"><p>Item 6</p></div>
     </section>
-    <button id="backToTop">:arrow_up: Back to Top</button>
 
     <!-- Footer -->
-    <footer class="footer">
-      <p>© 2025 MySite. All rights reserved.</p>
-      <div class="footer-links">
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
-        <a href="#">Help</a>
+    <footer>
+      <div class="footer">
+        <div class="footer-content">
+          <p>© 2025 MySite. All rights reserved.</p>
+        </div>
+        <div class="footer-content">
+          <button id="backToTop">:arrow_up: Back to Top</button>
+        </div>
       </div>
     </footer>
-
-    <script>
-      // Back to Top button functionality
-      const btn = document.getElementById("backToTop");
-      btn.addEventListener("click", () => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      });
-    </script>
   </body>
 </html>
