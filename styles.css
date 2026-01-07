@@ -133,9 +133,6 @@ div.item {
     font-size: 0.9rem;
 }
 
-.footer-content {
-    display: inline-block;
-}
 
 #backToTop {
   background-color: #3681d2;
@@ -144,4 +141,20 @@ div.item {
   padding: 10px 15px;
   border-radius: 5px;
   cursor: pointer;
+  width: 8rem;
+  height: 2.5rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 15px;
+  margin-left: 20px;
+  font-size: 0.8rem;
+}
+a {
+  color: #52bef8;
+}
+
+a:visited {
+  color: #112ea4;
 }
