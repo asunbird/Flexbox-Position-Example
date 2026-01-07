@@ -95,8 +95,13 @@ div.item {
     display: inline-block;;
     bottom: 10px;
     width: 140px;
-    height: 150px;
+    height: 80px;
     margin: 20px;
     border-radius: 6px;
     background-color: lightblue;
+}
+
+.item p {
+    text-align: center;
+
 }
