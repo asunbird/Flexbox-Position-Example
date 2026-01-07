@@ -77,17 +77,18 @@ nav {
 }
 
 #special-badge {
-    width: 100px;
-    height: 30px;
+    width: 86px;
+    height: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 0.7rem;
     border-radius: 4px;
-    background-color: rgb(253, 140, 115);
+    background-color: rgb(255, 127, 107);
     color: #ffffff;
     position: relative;
-    margin: 0;
+    top: -8px;
+    left: 40px;
 }
 
 div.item {
