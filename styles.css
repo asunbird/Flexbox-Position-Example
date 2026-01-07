@@ -142,6 +142,7 @@ div.item {
   display: flex;
   flex-flow: column;
 }
+
 /* Back to Top button styles */
 #backToTop {
   display: block;
