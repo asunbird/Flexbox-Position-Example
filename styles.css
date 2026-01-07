@@ -114,6 +114,11 @@ div.item {
 
 }
 
+.item:hover {
+    background-color: rgb(249, 253, 123);
+    cursor: pointer;
+}
+
 #special-bage-text {
     position: relative;
     margin: 0 auto;
@@ -127,7 +132,7 @@ div.item {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 80px;
+    height: 100px;
     background-color: rgb(11, 46, 128);
     color: #ffffff;
     font-size: 0.9rem;
@@ -135,6 +140,8 @@ div.item {
 
 
 #backToTop {
+  display: block;
+  margin-left: 20px;
   background-color: #3681d2;
   color: white;
   border: none;
@@ -143,6 +150,10 @@ div.item {
   cursor: pointer;
   width: 8rem;
   height: 2.5rem;
+}
+
+.footer p {
+  display: block;
 }
 
 .footer-links {
