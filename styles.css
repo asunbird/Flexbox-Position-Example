@@ -5,6 +5,10 @@ html {
     font-size: 16px;  
 }
 
+body {
+  margin: 0;
+}
+
 /*  Navigation bar styles */
 nav {
   background-color: rgb(79, 138, 207);
